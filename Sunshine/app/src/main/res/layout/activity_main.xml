@@ -20,7 +20,7 @@
         android:layout_marginLeft="43dp"
         android:layout_marginStart="43dp"
         android:layout_marginTop="26dp"
-        android:text="Today, June 24" />
+        android:text="@string/today" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -62,9 +62,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/editText4"
-        android:text="Cloudy"
+        android:text="@string/cloudy"
         android:layout_below="@+id/imageView"
-        android:elegantTextHeight="false"
-        android:layout_toRightOf="@+id/editText2" />
+        android:layout_toEndOf="@+id/editText2" />
 
 </RelativeLayout>

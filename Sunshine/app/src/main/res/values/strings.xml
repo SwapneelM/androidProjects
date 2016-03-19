@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Sunshine</string>
+    <string name="today">Today, June 24</string>
+    <string name="cloudy">Cloudy</string>
 </resources>
