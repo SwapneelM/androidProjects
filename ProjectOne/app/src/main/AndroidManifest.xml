@@ -12,7 +12,7 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name=".OrganizationPreferenceActivity"
-            android:label="@string/preference_organization_title">
+            android:label="@string/sort_preference_title">
 
         </activity>
         <activity
