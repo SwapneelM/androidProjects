@@ -1,10 +1,8 @@
-package com.gyasistory.project1moviedatabase;
+package com.android.projectone;
 
 import java.io.Serializable;
 
-/**
- * Created by gyasistory on 7/30/15.
- */
+
 public class Movie implements Serializable {
 
     private String backdrop_path;

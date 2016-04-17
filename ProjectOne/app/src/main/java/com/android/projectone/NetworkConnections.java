@@ -1,12 +1,10 @@
-package com.gyasistory.project1moviedatabase;
+package com.android.projectone;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 
-/**
- * Created by gyasistory on 7/30/15.
- */
+
 public class NetworkConnections {
 
     /**

@@ -1,12 +1,10 @@
-package com.gyasistory.project1moviedatabase;
+package com.android.projectone;
 
 import android.os.Bundle;
 import android.preference.PreferenceFragment;
 
-/**
- * Created by gyasistory on 7/30/15.
- */
-public class OrganizationPreferenceFragment extends PreferenceFragment {
+
+public class LayoutPreferenceFragment extends PreferenceFragment {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

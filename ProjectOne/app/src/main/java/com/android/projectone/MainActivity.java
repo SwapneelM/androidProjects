@@ -1,4 +1,4 @@
-package com.gyasistory.project1moviedatabase;
+package com.android.projectone;
 
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
@@ -8,7 +8,7 @@ import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -34,11 +34,9 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
 
-/**
- * Created by gyasistory on 7/30/15.
- */
 
-public class MainActivity extends ActionBarActivity implements AdapterView.OnItemClickListener{
+
+public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener{
 
     final static String TAG = "Movie Results";
 
@@ -123,7 +121,7 @@ public class MainActivity extends ActionBarActivity implements AdapterView.OnIte
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            Intent optionIntent = new Intent(this, OrganizationPreferenceActivity.class);
+            Intent optionIntent = new Intent(this, PreferenceSelection.class);
             startActivity(optionIntent);
             return true;
         }
@@ -148,7 +146,7 @@ public class MainActivity extends ActionBarActivity implements AdapterView.OnIte
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         Movie movie = (Movie) parent.getAdapter().getItem(position);
 
-        Intent intent = new Intent(MainActivity.this, DetailActivity.class);
+        Intent intent = new Intent(MainActivity.this, Details.class);
         intent.putExtra("Movie", movie);
         startActivity(intent);
     }

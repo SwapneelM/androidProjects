@@ -1,8 +1,8 @@
-package com.gyasistory.project1moviedatabase;
+package com.android.projectone;
 
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -10,7 +10,7 @@ import android.widget.Toast;
 import com.squareup.picasso.Picasso;
 
 
-public class DetailActivity extends ActionBarActivity {
+public class Details extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

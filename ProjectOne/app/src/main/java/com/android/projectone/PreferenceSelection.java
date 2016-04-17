@@ -1,12 +1,9 @@
-package com.gyasistory.project1moviedatabase;
+package com.android.projectone;
 
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 
-/**
- * Created by gyasistory on 7/30/15.
- */
-public class OrganizationPreferenceActivity extends ActionBarActivity {
+public class PreferenceSelection extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -14,6 +11,6 @@ public class OrganizationPreferenceActivity extends ActionBarActivity {
         setContentView(R.layout.preferences_active);
 
         getFragmentManager().beginTransaction().replace(R.id.org_frame,
-                new OrganizationPreferenceFragment()).commit();
+                new LayoutPreferenceFragment()).commit();
     }
 }
