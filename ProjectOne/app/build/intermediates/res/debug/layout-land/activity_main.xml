@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/appbar" />
+
+    <GridView
+        android:id="@+id/topMovieGrid"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="400dp"
+        android:numColumns="auto_fit" />
+
+</LinearLayout><!-- From: file:/home/ssm/AndroidProjects/code/ProjectOne/app/src/main/res/layout-land/activity_main.xml -->

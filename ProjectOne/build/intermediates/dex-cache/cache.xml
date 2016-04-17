@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/ssm/AndroidProjects/code/ProjectOne/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/home/ssm/AndroidProjects/code/ProjectOne/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-24e45310b1a4763d2d3aba9510b6336df110d997.jar" />
+    </item>
+    <item
+        jar="/home/ssm/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.3.3/1262995965440e28ba5c4d480c9c9ab4ccce84cc/picasso-2.3.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1262995965440e28ba5c4d480c9c9ab4ccce84cc">
+        <dex dex="/home/ssm/AndroidProjects/code/ProjectOne/app/build/intermediates/pre-dexed/debug/picasso-2.3.3-38b2ae2e0130eee2bb99098db6d14ad7a79483bb.jar" />
+    </item>
+    <item
+        jar="/home/ssm/AndroidProjects/code/ProjectOne/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/home/ssm/AndroidProjects/code/ProjectOne/app/build/intermediates/pre-dexed/debug/classes-773d83fda619043a2f1f767d311a57877be4993a.jar" />
+    </item>
+    <item
+        jar="/home/ssm/AndroidProjects/code/ProjectOne/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/home/ssm/AndroidProjects/code/ProjectOne/app/build/intermediates/pre-dexed/debug/classes-30123a4c502033c47e2272cc5b27268fc74231b6.jar" />
+    </item>
+    <item
+        jar="/home/ssm/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
+        <dex dex="/home/ssm/AndroidProjects/code/ProjectOne/app/build/intermediates/pre-dexed/debug/commons-io-2.4-53e609975e6c71fa18a5d65d29a4331008552fb3.jar" />
+    </item>
+    <item
+        jar="/home/ssm/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/home/ssm/AndroidProjects/code/ProjectOne/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-395865851ae672e630c25138dde339eccaff7a67.jar" />
+    </item>
+    <item
+        jar="/home/ssm/.gradle/caches/modules-2/files-2.1/org.apache.directory.studio/org.apache.commons.io/2.4/b98d592c582262b3da8a871c7317f4902d98e996/org.apache.commons.io-2.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b98d592c582262b3da8a871c7317f4902d98e996">
+        <dex dex="/home/ssm/AndroidProjects/code/ProjectOne/app/build/intermediates/pre-dexed/debug/org.apache.commons.io-2.4-4c10c41719f0baee4d8c3887e7b5a349cf9577aa.jar" />
+    </item>
+
+</items>
