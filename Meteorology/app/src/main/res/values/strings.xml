@@ -13,4 +13,11 @@
     <string name="pref_location_summary">User entered PIN Code</string>
     <string name="pref_header_location">Location</string>
 
+    <string name="pref_units_label">Temperature Units</string>
+    <string name="pref_units_key">units</string>
+    <string name="pref_units_label_metric">Metric</string>
+    <string name="pref_units_label_imperial">Imperial</string>
+    <string name="pref_units_metric">Metric</string>
+    <string name="pref_units_imperial">Imperial</string>
+    
 </resources>
